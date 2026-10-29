@@ -58,7 +58,7 @@
                     android:layout_height="0dp"
                     android:layout_weight="1"
                     android:src="@drawable/img_btn_facilities"
-                    android:background="#D3D3D3"
+                    android:background="@drawable/button_selector"
                     android:scaleType="centerInside"
                     android:contentDescription="Facilities" />
 
@@ -67,7 +67,8 @@
                     android:layout_height="wrap_content"
                     android:gravity="center"
                     android:text="Facilities"
-                    android:textColor="#000000" />
+                    android:textColor="#FFFFFF"
+android:background="@color/green" />
 
             </LinearLayout>
 
@@ -84,7 +85,7 @@
                     android:layout_height="0dp"
                     android:layout_weight="1"
                     android:src="@drawable/img_btn_events"
-                    android:background="#D3D3D3"
+                    android:background="@drawable/button_selector"
                     android:scaleType="centerInside"
                     android:contentDescription="Events" />
 
@@ -93,7 +94,8 @@
                     android:layout_height="wrap_content"
                     android:gravity="center"
                     android:text="Events"
-                    android:textColor="#000000" />
+                    android:textColor="#FFFFFF"
+android:background="@color/green" />
 
             </LinearLayout>
 
@@ -119,7 +121,7 @@
                     android:layout_height="0dp"
                     android:layout_weight="1"
                     android:src="@drawable/img_btn_clubs"
-                    android:background="#D3D3D3"
+                    android:background="@drawable/button_selector"
                     android:scaleType="centerInside"
                     android:contentDescription="Clubs" />
 
@@ -128,7 +130,8 @@
                     android:layout_height="wrap_content"
                     android:gravity="center"
                     android:text="Clubs"
-                    android:textColor="#000000" />
+                    android:textColor="#FFFFFF"
+android:background="@color/green" />
 
             </LinearLayout>
 
@@ -145,7 +148,7 @@
                     android:layout_height="0dp"
                     android:layout_weight="1"
                     android:src="@drawable/img_btn_support"
-                    android:background="#D3D3D3"
+                    android:background="@drawable/button_selector"
                     android:scaleType="centerInside"
                     android:contentDescription="Support" />
 
@@ -154,7 +157,8 @@
                     android:layout_height="wrap_content"
                     android:gravity="center"
                     android:text="Support"
-                    android:textColor="#000000" />
+                    android:textColor="#FFFFFF"
+android:background="@color/green" />
 
             </LinearLayout>
 
