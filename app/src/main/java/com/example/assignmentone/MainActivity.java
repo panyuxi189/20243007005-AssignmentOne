@@ -1,6 +1,6 @@
-
 package com.example.assignmentone;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.widget.ImageButton;
 import android.widget.Toast;
@@ -41,28 +41,44 @@ public class MainActivity extends AppCompatActivity {
         btnClubs = findViewById(R.id.btnClubs);
         btnSupport = findViewById(R.id.btnSupport);
 
-        // Facilities button click
+        // Facilities - index 0
         btnFacilities.setOnClickListener(v -> {
             Toast.makeText(this, "Facilities clicked",
                     Toast.LENGTH_SHORT).show();
+
+            Intent intent = new Intent(this, DetailActivity.class);
+            intent.putExtra("category_index", 0);
+            startActivity(intent);
         });
 
-        // Events button click
+        // Events - index 1
         btnEvents.setOnClickListener(v -> {
             Toast.makeText(this, "Events clicked",
                     Toast.LENGTH_SHORT).show();
+
+            Intent intent = new Intent(this, DetailActivity.class);
+            intent.putExtra("category_index", 1);
+            startActivity(intent);
         });
 
-        // Clubs button click
+        // Clubs - index 2
         btnClubs.setOnClickListener(v -> {
             Toast.makeText(this, "Clubs clicked",
                     Toast.LENGTH_SHORT).show();
+
+            Intent intent = new Intent(this, DetailActivity.class);
+            intent.putExtra("category_index", 2);
+            startActivity(intent);
         });
 
-        // Support button click
+        // Support - index 3
         btnSupport.setOnClickListener(v -> {
             Toast.makeText(this, "Support clicked",
                     Toast.LENGTH_SHORT).show();
+
+            Intent intent = new Intent(this, DetailActivity.class);
+            intent.putExtra("category_index", 3);
+            startActivity(intent);
         });
     }
 }
