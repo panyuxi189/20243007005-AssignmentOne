@@ -67,7 +67,9 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="vertical">
+            android:orientation="vertical"
+            android:paddingHorizontal="16dp"
+            android:paddingVertical="12dp">
 
             <!-- Detail title -->
             <TextView
@@ -83,6 +85,7 @@
             <!-- Detail description -->
             <TextView
                 android:id="@+id/detailContent"
+                android:lineSpacingExtra="4dp"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="This is content"
